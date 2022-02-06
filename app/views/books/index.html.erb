@@ -1,0 +1,15 @@
+<p class="notice">Book was successfully created.</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @book.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @book.body %>
+</p>
+
+<td><%= link_to "Edit", edit_path %></td>
+|
+<td><%= link_to "Back", new_path %></td>
